@@ -5,14 +5,14 @@ var bodyParser = require('body-parser');
 var db = mongoose.connect('mongodb://localhost/bookAPI');
 var app = express();
 var PORT = process.env.PORT || 3000;
-var Book = require('./models/bookModel');
-
-var bookRouter = require('./routes/bookRoute')(Book);
 
 app.use(bodyParser.urlencoded({
   extended: true
 }));
 app.use(bodyParser.json());
+
+var Book = require('./models/bookModel');
+var bookRouter = require('./routes/bookRoute')(Book);
 
 app.use('/api/books', bookRouter);
 
