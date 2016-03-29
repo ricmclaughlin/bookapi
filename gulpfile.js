@@ -5,6 +5,12 @@ var env = require('gulp-env');
 var supertest = require('supertest');
 
 gulp.task('default', function () {
+  env({
+    vars: {
+      ENV: 'Dev'
+    }
+  });
+
   nodemon({
       script: 'app.js',
       ext: 'js',
