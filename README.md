@@ -14,13 +14,12 @@ The API, which returns JSON with some embedded HATEOS, itself is pretty straight
 
 I implemented integration tests using [supertest](https://github.com/visionmedia/supertest), [should](https://shouldjs.github.io/) and [gulp-mocha](https://github.com/sindresorhus/gulp-mocha). 
 
-
 I implemented unit tests using [should](https://shouldjs.github.io/) and [sinon](http://sinonjs.org/).
 
 I deployed the API to [heroku](https://www.heroku.com/) using the which is still ridiculously easy
 
 * The source code for this application is at [https://github.com/ricmclaughlin/bookapi](https://github.com/ricmclaughlin/bookapi).
 
-* The live running version of this application is at [https://tranquil-harbor-71589.herokuapp.com/](https://tranquil-harbor-71589.herokuapp.com/).
+* The live running version of this application is at [ https://young-ocean-39459.herokuapp.com/](lshttps://young-ocean-39459.herokuapp.com/).
 
 This application is part of [my portfolio](http://ric.mclaughlin.today).
